@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Audio and video</title>
+</head>
+<body>
+	<p>
+    <label for="t-rex-roar">
+        What does the <del>fox</del> <ins>T. rex</ins> say?
+    </label>
+
+    <br/>
+
+    <audio
+        id="t-rex-roar"
+        controls
+        src="http://soundbible.com/mp3/Tyrannosaurus%20Rex%20Roar-SoundBible.com-807702404.mp3">
+        Your browser does not support the <code>audio</code> element.
+    </audio>
+</p>
+
+<p>
+    <label for="t-rex-roar-loop">
+        What’s that?
+    </label>
+
+    <br/>
+
+    <!-- This time we use the source element instead of the src attribute -->
+    <audio id="t-rex-roar-loop" controls loop volume="0.5">
+        <source
+            type="audio/mpeg"
+            src="http://soundbible.com/mp3/Tyrannosaurus%20Rex%20Roar-SoundBible.com-807702404.mp3"/>
+        Your browser does not support the <code>audio</code> element.
+    </audio>
+</p>
+
+<!-- Simple video example -->
+<!-- 'Big Buck Bunny' licensed under CC 3.0 by the Blender foundation. Hosted by archive.org -->
+<!-- Poster from peach.blender.org -->
+<video autoplay="autoplay" controls loop="" 
+    src="https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4"
+    poster="https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217"
+    width="620">
+
+Sorry, your browser doesn't support embedded videos, 
+but don't worry, you can <a href="https://archive.org/details/BigBuckBunny_124">download it</a> 
+and watch it with your favorite video player!
+
+</video>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+</body>
+</html>
