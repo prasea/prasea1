@@ -1,3 +1,8 @@
+/*Reset * is universal selector*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
 body
 {
 	margin:0px;
@@ -8,6 +13,7 @@ body
 	background-attachment: fixed;
 	background-size: cover;
 }
+/* container is our table */
 .container{
 	width: 960px;
 	min-height: 1500px;
@@ -39,4 +45,47 @@ body
 .clear
 {
 	clear: both;
+}
+.row{
+	min-height: 1px;
+}
+.hr{
+	border-bottom: 1px groove #ff0000;
+}
+.col100{
+	width: 100%;
+	min-height: 50px;
+}
+.col50{
+	width: 49%;
+	min-height: 50px;
+	float: left;
+}
+.col75{
+	width: 73%;
+	min-height: 50px;
+	float: left;
+}
+.col25{
+	width: 24%;
+	min-height: 50px;
+	float: left;
+}
+.banner{
+	background-image: url('images/banner.jpg');
+	width: 960px;
+	height: 150px;
+	background-repeat: no-repeat;
+}
+/* Decendent Selector */
+.highlight img{
+	border-radius: 0px 20px 0px 20px;
+	opacity: 1;
+}
+/* pseudo class selector*/
+.highlight img:hover{
+	opacity: 0.7;
+	border-bottom: 3px groove #ccddcc;
+	border-right: 3px groove #ccddcc;
+
 }
